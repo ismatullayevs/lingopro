@@ -10,7 +10,3 @@ def index():
     if request.method == 'POST':
         flash("Your request has been sent", "info")
     return render_template("test.html")
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
